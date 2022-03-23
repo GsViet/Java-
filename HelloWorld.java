@@ -4,8 +4,9 @@ public class HelloWorld {
 		a.name = "Chau";
 		a.age = 21;
 		a.height = 1.7f;
-		System.out.println(a.name);
-             System.out.println(a.height);
-             System.out.println(a.age);
+		
+		a.eat("Rice");
+		int age = a.getAge();
+		System.out.println("His age:"+age);
 	}
 }
